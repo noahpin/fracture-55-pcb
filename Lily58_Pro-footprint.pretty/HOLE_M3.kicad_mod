@@ -1,0 +1,10 @@
+(module HOLE_M3 (layer F.Cu) (tedit 5FAA0BCC)
+  (fp_text reference HOLE_M2 (at 0 -2) (layer Eco2.User) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+  )
+  (fp_text value VAL** (at 0 1.75) (layer Eco2.User) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask F.SilkS)
+    (clearance 0.8))
+)
